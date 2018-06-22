@@ -1,0 +1,26 @@
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  color: #757575; }
+
+.containers {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  /* background: rgba(67, 66, 134, 0.82); */
+  /* border: 1px solid #c39a9a; */
+  /* box-shadow: 0 0 12px rgb(160, 55, 55); */
+  /* border-radius: 10px 10px 10px 10px;  */
+  }
+
+h3 {
+  text-transform: uppercase; 
+  }
+  
+.sectiontitleroadmap {
+    display: block;
+    max-width: 55%;
+    margin: 0 auto 0px;
+    text-align: center;
+  }
+  
