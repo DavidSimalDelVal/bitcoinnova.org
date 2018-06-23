@@ -210,12 +210,11 @@
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:180px 0;}
-
-#pageintro article{display:block; max-width:75%; margin:0 auto; text-align:center;}
-#pageintro .heading{margin-bottom:20px; font-size:3rem;}
-#pageintro p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-size:2rem; letter-spacing:5px;}
-#pageintro footer{margin-top:50px;}
+#pageintro{padding:180px 0; z-index:0}
+#pageintro article{display:block; max-width:75%; margin:0 auto; text-align:center;z-index:0;}
+#pageintro .heading{margin-bottom:20px; font-size:3rem;z-index:0;}
+#pageintro p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-size:2rem; letter-spacing:5px;z-index:0;}
+#pageintro footer{margin-top:50px;z-index:0;}
 
 
 /* Content Area
@@ -444,6 +443,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#CF9C67;}
 .row3{color:#fffcfc; background-color:#1e1e1e;}
 .row4{color:#FFF; background-color:#1D1D1D;}
 .row5, .row5 a{color:#FFF; background-color:#000;}
+.row6{color:#fffcfc; background-color:#ffffff;}
 
 .row3 .heading, {color:#121212;}
 .row4 .heading	{color:#FFF;}
